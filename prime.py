@@ -9,4 +9,5 @@ def getPrime(num):
 		# increment by two to skip directly to the next prime number
 		count += 2
 
+# test the function
 getPrime(56)

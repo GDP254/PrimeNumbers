@@ -6,6 +6,7 @@ def getPrime(num):
 		# is the modulus is beyond zero it is prime
 		if count % 2 > 0:
 			print(count)
+		# increment by two to skip directly to the tnex prime number
 		count += 2
 
 getPrime(56)
